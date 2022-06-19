@@ -1,5 +1,5 @@
 body {
-    background: #CCCCCC;
+    margin: 0;
 }
 
 h1 {
@@ -18,6 +18,22 @@ p {
     width: 100%;
 }
 
+.principal {
+    background: #ccc;
+}
+
 em strong {
     color: red;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #fff;
+}
+
+h2 {
+    text-align: center;
 }
