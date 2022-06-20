@@ -80,6 +80,12 @@ nav a:hover {
 footer {
     text-align: center;
     background: url("img/bg.jpg");
-    color: #fff;
     padding: 40px;
+}
+
+
+.copyleft {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
 }
