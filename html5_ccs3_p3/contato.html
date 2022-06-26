@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Barbearia Arua</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="img/logo.png"></h1>
+                <nav>
+                    <ul class="navegacao">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao">
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" class="input-padrao">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
+
+                <label for="mensagem">Mesagem</label>
+                <textarea id="mensagem" cols="30" rows="10" class="input-padrao"></textarea>
+
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+
+                    <label for="radio-email">
+                        <input class="checkbox" id="radio-email" value="email" type="radio" name="contato">
+                        Email
+                    </label>
+
+                    <label for="radio-telefone">
+                        <input class="checkbox" id="radio-telefone" value="telefone" type="radio" name="contato">
+                        Telefone
+                    </label>
+
+                    <label for="radio-whatsapp">
+                        <input class="checkbox" id="radio-whatsapp" value="whatsapp" type="radio" name="contato">
+                        WhatsApp
+                    </label>
+
+                </div>
+
+                <label>
+                    <input type="checkbox">
+                    Gostaria de receber nossa novidade por email?
+                </label>
+
+                <input type="submit" value="Enviar formulário">
+            </form>
+
+        </main>
+
+        <footer>
+            <img src="img/logo-branco.png">
+            <p class="copyleft">&#127279; Copyleft Barbearia Alura</p>
+        </footer>
+    </body>
+</html>
