@@ -37,3 +37,14 @@
     flex-flow: column wrap; /* Une as propriedades flex-direction e flex-wrap em uma só */
     height: 260px;
 }
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin: 1%;
+}
