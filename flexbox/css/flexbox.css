@@ -1,12 +1,39 @@
 .cabecalhoPrincipal .container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.cabecalhoPrincipal-titulo {
-    
+    align-items: center;  /* Alinhamento vertical */
+    justify-content: space-between; /* Espaço entre os elementos */
 }
 
 .cabecalhoPrincipal-nav {
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap; /* Une as propriedades flex-direction e flex-wrap em uma só */
+    height: 260px;
 }
